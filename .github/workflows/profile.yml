@@ -1,0 +1,48 @@
+# Refreshes the profile visuals once a day: language bar, bonsai and koi.
+# Run it by hand the first time: Actions tab -> "profile" -> Run workflow.
+name: profile
+
+on:
+  schedule:
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: profile
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Language breakdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/lang_breakdown.py "${{ github.repository_owner }}"
+
+      - name: Bonsai
+        uses: egorthinks/git-bonsai@v1
+        with:
+          output-dir: output
+          commit: "false"
+
+      - name: Koi
+        uses: yalongwastaken/git-koi@v1
+        with:
+          body: white
+          output-dir: koi
+
+      - name: Commit if anything changed
+        run: |
+          git add assets output koi
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "chore: refresh profile visuals"
+          git push --quiet
