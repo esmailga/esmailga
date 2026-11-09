@@ -58,7 +58,7 @@ Software developer working across web and backend development, ERP systems, mobi
 
 | Project | What it is | Built with |
 |---|---|---|
-| [iot-sae-ids](https://github.com/esmailga/iot-sae-ids) | Lightweight IoT intrusion detection using a sparse autoencoder (MSc project) | Python, scikit-learn, pandas |
+| [iot-sae-ids](https://github.com/esmailga/iot-sae-ids) | Lightweight IoT intrusion detection using a sparse autoencoder | Python, scikit-learn, pandas |
 | [Flexibleea](https://github.com/esmailga/Flexibleea) | Freelancer marketplace app where recruiters browse, request and review freelancers | Flutter, Dart, Firebase |
 | [samaform](https://github.com/esmailga/samaform) | Architecture firm website and multi-step intake form ([live](https://www.samaform.com)) | React, TypeScript, PHP, SQLite |
 | [beautySupplements](https://github.com/esmailga/beautySupplements) | Ecommerce storefront and admin dashboard for a beauty brand | React, TypeScript, PHP, SQLite |
