@@ -7,7 +7,7 @@ Software developer working across web and backend development, ERP systems, mobi
 
 <table width="100%">
   <tr>
-    <td width="65%" valign="top">
+    <td width="70%" valign="top">
       <h3>Tech Stack</h3>
       <p align="left">
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -34,7 +34,7 @@ Software developer working across web and backend development, ERP systems, mobi
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
       </p>
     </td>
-    <td width="35%" align="center" valign="top">
+    <td width="30%" align="center" valign="top">
       <img src="koi/koi.gif" width="220" alt="A pixel-art koi drawn from my GitHub activity" />
     </td>
   </tr>
@@ -42,11 +42,11 @@ Software developer working across web and backend development, ERP systems, mobi
 
 <table width="100%">
   <tr>
-    <td width="65%" valign="top">
+    <td width="80%" valign="top">
       <h3>Language Breakdown</h3>
       <img src="assets/lang-breakdown.svg" alt="Language breakdown across my repos" />
     </td>
-    <td width="35%" align="center" valign="bottom">
+    <td width="20%" align="center" valign="bottom">
       <a href="https://egorthinks.github.io/git-bonsai/?u=esmailga">
         <img src="output/bonsai-growth.gif" width="140" alt="A pixel-art bonsai grown from my GitHub history" />
       </a>
