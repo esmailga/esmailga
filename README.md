@@ -60,5 +60,6 @@ Software developer working across web and backend development, ERP systems, mobi
 |---|---|---|
 | [Shams Solutions](https://shamss.io) | Bilingual (English / Arabic) website for an ERP and digital transformation company in Saudi Arabia ([live](https://shamss.io)) | React, TypeScript, Express, Firebase |
 | [samaform](https://github.com/esmailga/samaform) | Architecture firm website and multi-step intake form ([live](https://www.samaform.com)) | React, TypeScript, PHP, SQLite |
+| [rasim-full](https://github.com/esmailga/rasim-full) | Arabic, right-to-left maths and physics workbench: interactive graphing, calculus with worked steps, an equation solver and ten simulations | React, Vite, Python, FastAPI, SymPy |
 | [iot-sae-ids](https://github.com/esmailga/iot-sae-ids) | Lightweight IoT intrusion detection using a sparse autoencoder | Python, scikit-learn, pandas |
 | [Flexibleea](https://github.com/esmailga/Flexibleea) | Freelancer marketplace app where recruiters browse, request and review freelancers | Flutter, Dart, Firebase |
