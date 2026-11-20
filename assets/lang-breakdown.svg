@@ -2,20 +2,20 @@
 <style>text { font-family: -apple-system, 'Segoe UI', Ubuntu, Sans-Serif; }</style>
 <defs><clipPath id="barclip"><rect x="0" y="4" width="440" height="14" rx="7" ry="7"/></clipPath></defs>
 <g clip-path="url(#barclip)">
-<rect x="0.00" y="4" width="187.64" height="14" fill="#2a78d6"/>
-<rect x="189.64" y="4" width="108.82" height="14" fill="#eb6834"/>
-<rect x="300.46" y="4" width="95.97" height="14" fill="#1baf7a"/>
-<rect x="398.44" y="4" width="16.74" height="14" fill="#eda100"/>
-<rect x="417.18" y="4" width="13.66" height="14" fill="#e87ba4"/>
-<rect x="432.84" y="4" width="2.54" height="14" fill="#8a63d2"/>
-<rect x="437.38" y="4" width="2.62" height="14" fill="#8b949e"/>
+<rect x="0.00" y="4" width="188.31" height="14" fill="#2a78d6"/>
+<rect x="190.31" y="4" width="108.49" height="14" fill="#eb6834"/>
+<rect x="300.79" y="4" width="95.68" height="14" fill="#1baf7a"/>
+<rect x="398.48" y="4" width="16.69" height="14" fill="#eda100"/>
+<rect x="417.17" y="4" width="13.62" height="14" fill="#e87ba4"/>
+<rect x="432.79" y="4" width="2.53" height="14" fill="#8a63d2"/>
+<rect x="437.32" y="4" width="2.68" height="14" fill="#8b949e"/>
 </g>
 <rect x="0" y="32" width="11" height="11" rx="3" fill="#2a78d6"/>
 <text x="19" y="42" font-size="13" fill="#2D7AD2">TypeScript</text>
-<text x="210" y="42" font-size="13" text-anchor="end" font-variant-numeric="tabular-nums" fill="#2D7AD2">43.8%</text>
+<text x="210" y="42" font-size="13" text-anchor="end" font-variant-numeric="tabular-nums" fill="#2D7AD2">44.0%</text>
 <rect x="0" y="57" width="11" height="11" rx="3" fill="#eb6834"/>
 <text x="19" y="67" font-size="13" fill="#2D7AD2">Dart</text>
-<text x="210" y="67" font-size="13" text-anchor="end" font-variant-numeric="tabular-nums" fill="#2D7AD2">25.4%</text>
+<text x="210" y="67" font-size="13" text-anchor="end" font-variant-numeric="tabular-nums" fill="#2D7AD2">25.3%</text>
 <rect x="0" y="82" width="11" height="11" rx="3" fill="#1baf7a"/>
 <text x="19" y="92" font-size="13" fill="#2D7AD2">Python</text>
 <text x="210" y="92" font-size="13" text-anchor="end" font-variant-numeric="tabular-nums" fill="#2D7AD2">22.4%</text>
